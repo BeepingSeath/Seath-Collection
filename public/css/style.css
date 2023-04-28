@@ -1,0 +1,31 @@
+body {
+  background-color: #5E0076;
+}
+
+header {
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.card {
+  font-size: 1.5rem;
+  color: white;
+  display: grid;
+  justify-content: center;
+  align-items: flex-end;
+  min-width: 20rem;
+  min-height: 30rem;
+  background-color: #BF00EF;
+  border-radius: 8%;
+}
+
+/*# sourceMappingURL=style.css.map */
