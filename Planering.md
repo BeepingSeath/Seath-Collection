@@ -17,18 +17,18 @@ Fre: Börja jobba på css
 
 v.18 
 
-Tis: Fortsätt jobba på css --- 
-Fre: Börja implementera databas
+Tis: Sjuk
+Fre: Sjuk
 
 v.19
 
-Tis: Troligen mer css
-Fre: Extra tid
+Tis: Fortsätt jobba på css --- 
+Fre: Börja implementera databas
 
 v.20
 
-Tis: Hosting
-Fre: Extra tid
+Tis: Extra tid
+Fre: Hosting
 
 v.21
 
