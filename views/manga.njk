@@ -1,0 +1,31 @@
+{% extends "layout.njk" %}
+{% block  content %}
+<div class="container">
+    <div>
+        <div>
+
+        </div>
+        <ul class="filterbar">
+            <li>
+                <h2>Reading</h2>
+            </li>
+            <li>
+                <h2>Completed</h2>
+            </li>
+            <li>
+                <h2>Unread</h2>
+            </li>
+            <li>
+                <h2>Wishlist</h2>
+            </li>
+        </ul>
+    </div>
+    <ul>
+        {% for row in rows %}
+        <li>
+            {% include "item.njk" %}
+        </li>
+    {% endfor %}
+    </ul>
+</div>
+{% endblock %}

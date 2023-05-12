@@ -29,4 +29,37 @@ header {
   border-radius: 8%;
 }
 
+.container {
+  width: min(80ch, 100vw - 2rem);
+  margin-inline: auto;
+  background-color: #ae13d4;
+}
+.container > button {
+  background-color: transparent;
+}
+.container > ul {
+  padding: 0 1rem;
+}
+.container > ul > li {
+  padding: 1rem 0;
+  list-style: none;
+}
+
+a {
+  color: white;
+}
+
+.item {
+  background-color: #EFAEFF;
+}
+
+.filterbar {
+  display: flex;
+  list-style: none;
+  font-size: 1rem;
+  background-color: #711389;
+  justify-content: space-evenly;
+  min-height: 5rem;
+}
+
 /*# sourceMappingURL=style.css.map */
