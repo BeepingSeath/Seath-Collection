@@ -12,25 +12,25 @@ Fre: Mer Planering och slutförande av skiss
 
 v.17 
 
-Tis: Sätta upp HTML --- 
+Tis: Sätta upp HTML  ---
 Fre: Börja jobba på css
 
 v.18 
 
-Tis: Fortsätt jobba på css --- 
-Fre: Börja implementera databas
+Tis: Sjuk ---
+Fre: Sjuk
 
 v.19
 
-Tis: Troligen mer css
-Fre: Extra tid
+Tis: Troligen mer css ---
+Fre: css
 
 v.20
 
-Tis: Hosting
-Fre: Extra tid
+Tis: Implementera databas ---
+Fre: Hosting
 
 v.21
 
-Tis: Skriva PM
+Tis: Skriva PM ---
 Fre: Göra presentation
