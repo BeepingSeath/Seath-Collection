@@ -1,6 +1,7 @@
 body {
   background-color: #5E0076;
   font-family: "Darumadrop One", cursive;
+  color: white;
 }
 
 header {
@@ -8,6 +9,10 @@ header {
   display: flex;
   justify-content: center;
   font-size: 3rem;
+}
+
+img {
+  max-width: 100%;
 }
 
 .cards {
@@ -19,7 +24,6 @@ header {
 
 .card {
   font-size: 1.5rem;
-  color: white;
   display: grid;
   justify-content: center;
   align-items: flex-end;
@@ -51,6 +55,14 @@ a {
 
 .item {
   background-color: #EFAEFF;
+  display: flex;
+}
+.item > div {
+  margin: 1rem;
+}
+.item > img {
+  max-width: 25%;
+  margin: 1rem;
 }
 
 .filterbar {
@@ -60,6 +72,14 @@ a {
   background-color: #711389;
   justify-content: space-evenly;
   min-height: 5rem;
+}
+
+.bottom {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+  border-style: solid;
+  margin: 25%;
 }
 
 /*# sourceMappingURL=style.css.map */

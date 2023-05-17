@@ -16,7 +16,7 @@ router.get('/', function (req, res, next) {
     });
 });
 router.get('/manga', async function (req, res, next) {
-    const [rows] = await promisePool.query("SELECT sb26forum.*, sb26users.name FROM sb26forum JOIN sb26users ON sb26forum.authorId = sb26users.id ORDER BY id DESC;");
+    const [rows] = await promisePool.query("SELECT * FROM SCManga");
     res.render('manga.njk', {
         rows: rows,
         title: 'Manga'
