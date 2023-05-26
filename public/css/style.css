@@ -15,6 +15,10 @@ img {
   max-width: 100%;
 }
 
+ul {
+  padding-inline-start: 0;
+}
+
 .cards {
   display: flex;
   justify-content: space-around;
@@ -70,7 +74,8 @@ a {
   list-style: none;
   font-size: 1rem;
   background-color: #711389;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  align-items: center;
   min-height: 5rem;
 }
 
@@ -80,6 +85,10 @@ a {
   margin-top: 5rem;
   border-style: solid;
   margin: 25%;
+}
+
+.backarrow {
+  max-width: 3rem;
 }
 
 /*# sourceMappingURL=style.css.map */
